@@ -1,0 +1,195 @@
+{
+  "commonDates": {
+    "beginDate": "Ngày bắt đầu"
+  },
+  "employees": {
+    "title": "Danh sách nhân viên",
+    "name": "Nhân viên",
+    "add": "Thêm nhân viên",
+    "addPosition": "Thêm mới",
+    "id": "Id",
+    "employeeId": "Mã số Đại Diện Kinh Doanh",
+    "employeeName": "Họ tên Đại Diện Kinh Doanh",
+    "joiningDate": "Ngày gia nhập",
+    "position": "Vị trí",
+    "positions": "Vị trí",
+    "taxId": "Mã số thuế",
+    "phoneNumber": "Số điện thoại",
+    "identityNumber": "Số CMND",
+    "email": "Email",
+    "directManager": "QL trực tiếp",
+    "directManagers": "QL trực tiếp",
+    "introducer": "Người Giới Thiệu",
+    "introducerId": "Người Giới Thiệu",
+    "createdAt": "Ngày tạo",
+    "updatedAt": "Ngày cập nhật",
+    "createdBy": "Người tạo",
+    "updatedBy": "Người cập nhật"
+  },
+  "pages": {
+    "login": {
+      "title": "Đăng nhập vào tài khoản của bạn",
+      "signin": "Đăng nhập",
+      "signup": "Đăng ký",
+      "divider": "hoặc",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng nhập",
+        "forgotPassword": "Quên mật khẩu?",
+        "noAccount": "Không có tài khoản?",
+        "rememberMe": "Nhớ tài khoản"
+      }
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu của bạn?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Gửi hướng dẫn đặt lại mật khẩu"
+      }
+    },
+    "register": {
+      "title": "Đăng ký tài khoản",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Địa chỉ email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng ký",
+        "haveAccount": "Có tài khoản?"
+      }
+    },
+    "updatePassword": {
+      "title": "Cập nhật mật khẩu",
+      "fields": {
+        "password": "Mật khẩu mới",
+        "confirmPassword": "Xác nhận mật khẩu mới"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Mật khẩu không khớp"
+      },
+      "buttons": {
+        "submit": "Cập nhật"
+      }
+    },
+    "error": {
+      "info": "Có thể bạn đã quên thêm thành phần {{action}} vào tài nguyên {{resource}}.",
+      "404": "Xin lỗi, trang bạn truy cập không tồn tại.",
+      "resource404": "Bạn có chắc chắn rằng bạn đã tạo tài nguyên {{resource}}.",
+      "backHome": "Về trang chủ"
+    }
+  },
+  "actions": {
+    "list": "Danh sách",
+    "create": "Tạo mới",
+    "edit": "Chỉnh sửa",
+    "show": "Hiển thị"
+  },
+  "buttons": {
+    "create": "Tạo mới",
+    "save": "Lưu",
+    "logout": "Đăng xuất",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "cancel": "Huỷ",
+    "confirm": "Bạn có chắc chắn?",
+    "filter": "Lọc",
+    "clear": "Xóa",
+    "refresh": "Làm mới",
+    "show": "Hiển thị",
+    "undo": "Hoàn tác",
+    "import": "Nhập",
+    "clone": "Sao chép",
+    "notAccessTitle": "Bạn không có quyền truy cập",
+    "ok": "Đồng ý"
+  },
+  "warnWhenUnsavedChanges": "Bạn có chắc chắn muốn rời đi? Bạn có thay đổi chưa lưu.",
+  "notifications": {
+    "success": "Thành công",
+    "error": "Lỗi (mã trạng thái: {{statusCode}})",
+    "undoable": "Bạn có {{seconds}} giây để hoàn tác",
+    "createSuccess": "Tạo mới {{resource}} thành công",
+    "createError": "Có lỗi khi tạo mới {{resource}} (mã trạng thái: {{statusCode}})",
+    "deleteSuccess": "Xóa {{resource}} thành công",
+    "deleteError": "Lỗi khi xóa {{resource}} (mã trạng thái: {{statusCode}})",
+    "editSuccess": "Chỉnh sửa {{resource}} thành công",
+    "editError": "Lỗi khi chỉnh sửa {{resource}} (mã trạng thái: {{statusCode}})",
+    "importProgress": "Đang nhập: {{processed}}/{{total}}"
+  },
+  "loading": "Đang tải",
+  "tags": {
+    "clone": "Sao chép"
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển"
+  },
+  "blog_posts": {
+    "blog_posts": "Bài viết",
+    "fields": {
+      "id": "Id",
+      "title": "Tiêu đề",
+      "content": "Nội dung",
+      "status": "Trạng thái",
+      "createdAt": "Ngày tạo",
+      "category": "Danh mục"
+    },
+    "titles": {
+      "create": "Tạo bài viết",
+      "edit": "Chỉnh sửa bài viết",
+      "list": "Bài viết",
+      "show": "Hiển thị bài viết"
+    }
+  },
+  "categories": {
+    "categories": "Danh mục",
+    "fields": {
+      "id": "Id",
+      "title": "Tiêu đề",
+      "createdAt": "Ngày tạo"
+    },
+    "titles": {
+      "create": "Tạo danh mục",
+      "edit": "Chỉnh sửa danh mục",
+      "list": "Danh mục",
+      "show": "Hiển thị danh mục"
+    }
+  },
+  "documentTitle": {
+    "default": "refine",
+    "suffix": " | refine",
+    "blog_posts": {
+      "list": "Bài viết | refine",
+      "show": "#{{id}} Hiển thị bài viết | refine",
+      "edit": "#{{id}} Chỉnh sửa bài viết | refine",
+      "create": "Tạo bài viết mới | refine",
+      "clone": "#{{id}} Sao chép bài viết | refine"
+    },
+    "categories": {
+      "list": "Danh mục | refine",
+      "show": "#{{id}} Hiển thị danh mục | refine",
+      "edit": "#{{id}} Chỉnh sửa danh mục | refine",
+      "create": "Tạo danh mục mới | refine",
+      "clone": "#{{id}} Sao chép danh mục | refine"
+    }
+  },
+  "table": {
+    "actions": "Thao tác",
+    "totals": "Tổng: {{total}} dòng"
+  },
+  "audit": {
+    "createdAt": "Ngày tạo"
+  }
+}
